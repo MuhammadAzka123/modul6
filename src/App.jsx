@@ -12,6 +12,10 @@ function App() {
         <p>{jam < 12 ? "Selamat Pagi" : "Selamat Siang"}</p>
         <p>Saldo awal kartu kantin: Rp {n*1000} </p>
         <button disabled>Bayar</button>
+        <panel judul ="Menu Hari Ini">
+          {dataMakanan.map}
+        </panel>
+        
     </>
   )
 }
